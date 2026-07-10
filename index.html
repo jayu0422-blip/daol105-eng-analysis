@@ -4,7 +4,7 @@
 <meta name='description' content='미사고 1학년·2학년 기말 영어 시험지 52문항 전부를 교재 원문과 축자 대조했습니다. 원문 그대로 나온 건 10점 안팎 — 외운 만큼 나오지 않은 이유를 문항 단위로 보여드립니다.'>
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css'>
 <link rel='preconnect' href='https://fonts.googleapis.com'>
-<link href='https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Nanum+Pen+Script&display=swap' rel='stylesheet'>
 <style>
 :root{--ink:#0c1a36;--navy:#15294f;--navy-soft:#213c6c;--gold:#c6a04a;--gold-bright:#e7c56d;
 --gold-soft:#f1e4bf;--cream:#faf6ee;--paper:#ffffff;--text:#1b2440;--muted:#5a6480;
@@ -163,9 +163,9 @@ footer b{color:var(--ink);}
 
 .kicker{font-size:15px;}
 .kicker b{font-size:1.35em;letter-spacing:.2px;}
-.track .grade{font-family:var(--serif);font-size:31px;font-weight:800;color:var(--navy);margin-top:8px;line-height:1.25;}
-.track .grade span{color:var(--gold);}
-.gradechip{font-size:18px;padding:11px 24px;}
+.track .grade{font-family:'Nanum Pen Script',cursive;font-size:58px;font-weight:400;color:#c0392b;-webkit-text-stroke:1.3px #c0392b;margin-top:6px;line-height:1.05;}
+.track .grade span{color:#c0392b;}
+.gradechip{background:none;border:none;box-shadow:none;padding:0;font-family:'Nanum Pen Script',cursive;font-size:48px;font-weight:400;color:#c0392b;-webkit-text-stroke:1.1px #c0392b;line-height:1.05;}
 .aboutwrap{display:grid;grid-template-columns:320px 1fr;gap:44px;align-items:start;margin-top:46px;text-align:left;}
 .aphoto img{width:100%;border-radius:20px;display:block;box-shadow:var(--shadow);border:1px solid var(--line);}
 .aname{margin-top:14px;text-align:center;}
@@ -185,6 +185,7 @@ footer b{color:var(--ink);}
 .aquote b{color:var(--gold-bright);}
 
 @media(max-width:860px){
+ .track .grade{font-size:42px;} .gradechip{font-size:36px;}
  .aboutwrap,.solu{grid-template-columns:1fr;}
  h1{font-size:30px;}h2{font-size:25px;}
  .tracks,.twins,.igwrap,.kgrid,.two,.sgrid{grid-template-columns:1fr;}
